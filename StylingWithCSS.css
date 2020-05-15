@@ -1,0 +1,42 @@
+/*The script in this file is to style the webpages using CSS*/
+
+body {
+  background-color: #A8E1EF;
+}
+
+h1 {
+  text-align: center;
+  font-family: cursive;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-style: oblique;	
+  color: #C42626;
+}
+
+h2 {
+  text-alight: left;
+  font-style: italic;
+  font-size: 30px;
+  color: #E95757;
+}
+
+/*Styling the submit buttons with class submit. Note that this styling code is copied 
+from www.computerhope.com and then I made a few modifications*/
+.submit {
+ background-color: #bbb;
+ padding: .5em;
+ -moz-border-radius: 5px;
+ -webkit-border-radius: 5px;
+ border-radius: 6px;
+ color: #fff;
+ font-family: 'Oswald';
+ font-size: 20px;
+ text-decoration: none;
+ border: none;
+}
+
+.submit:hover {
+ border: none;
+ background: red;
+ box-shadow: 0px 0px 1px #777;
+}
